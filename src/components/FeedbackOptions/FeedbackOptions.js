@@ -10,7 +10,7 @@ const FeedbackOptions = ({ changeFeedback, options }) => {
             key={option}
             type="button"
             name={option}
-            onClick={changeFeedback}
+            onClick={() => changeFeedback(option)}
           >
             {option}
           </button>
